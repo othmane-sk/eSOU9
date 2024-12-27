@@ -330,7 +330,10 @@ span{
     }
     .nav-signup{
         border-radius: 40px;
-        padding: 16px;
+        padding: 11px;
+    }
+    .nav-helpers{
+        padding-top: 2%;
     }
     .card h2{
         width: 100%;
