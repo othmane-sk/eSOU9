@@ -54,6 +54,9 @@ img{
     column-gap: 0.5rem;
     cursor: pointer;
 }
+.nav-signup a{
+    display: inline-flex;
+}
 .nav-signup p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
@@ -133,6 +136,26 @@ img{
     margin-top: 3%;
     text-align: center;
     transition: 0.3s;
+}
+.c{
+    cursor: pointer;
+    background-color: rgb(237, 237, 237);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    border-radius: 15px;
+    height: 155.4px;
+    width: 10%;
+    margin-right: 2%;
+    margin-top: 3%;
+    text-align: center;
+    transition: 0.3s;
+}
+.nav-helpers{
+    padding-top: 0;
 }
 .card:hover{
     transform: scale(1.1);
@@ -293,7 +316,7 @@ span{
         padding-right: 2%;
     }
     .card h2{
-        font-size: 50%;
+        font-size: 60%;
     }
     .medi{
         font-size: 70%;
@@ -330,11 +353,14 @@ span{
     }
     .nav-signup{
         border-radius: 40px;
-        padding: 16px;
+        padding: 11px;
+    }
+    .nav-helpers{
+        padding-top: 2%;
     }
     .card h2{
         width: 100%;
-        font-size: 30%;
+        font-size: 40%;
     }
     .card{
         height: 80px;
